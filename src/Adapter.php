@@ -51,7 +51,7 @@ class Adapter implements StsAdapter
         return make(StsTokenResponse::class, [
             'accessKeyId' => $sessionToken->getAccessKeyId(),
             'accessKeySecret' => $sessionToken->getSecretAccessKey(),
-            'expireTime' => new DateTime($sessionToken->getExpiration()),
+            'expireTime' => strtotime($sessionToken->getExpiration()),
             'sessionToken' => $sessionToken->getSessionToken(),
         ]);
     }
