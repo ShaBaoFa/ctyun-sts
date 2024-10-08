@@ -6,7 +6,7 @@
         "php",
         "hyperf"
     ],
-    "description": "集成式STS辅助包",
+    "description": "天翼云STS辅助包",
     "autoload": {
         "psr-4": {
             "Wlfpanda1012\\CtyunSts\\": "src/"
