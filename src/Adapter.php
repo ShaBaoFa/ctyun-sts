@@ -16,9 +16,9 @@ use DateTime;
 use Wlfpanda1012\CommonSts\Contract\StoragePolicyGenerator;
 use Wlfpanda1012\CommonSts\Contract\StsAdapter;
 use Wlfpanda1012\CommonSts\Response\StsTokenResponse;
-use Wlfpanda1012\CtyunOosSdkPlus\Core\OosException;
-use Wlfpanda1012\CtyunOosSdkPlus\Model\SessionToken;
-use Wlfpanda1012\CtyunOosSdkPlus\OosClient;
+use Wlfpanda1012\CtyunOosSdkPlus\OOS\Core\OosException;
+use Wlfpanda1012\CtyunOosSdkPlus\OOS\Model\SessionToken;
+use Wlfpanda1012\CtyunOosSdkPlus\OOS\OosClient;
 use Wlfpanda1012\CtyunSts\Exception\InvalidArgumentException;
 
 class Adapter implements StsAdapter, StoragePolicyGenerator
